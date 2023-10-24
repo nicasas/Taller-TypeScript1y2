@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Series de Televisión</title>
+</head>
+
+<body>
+    <div class="container">
+    <div style = "height: 3%; background-color: #24A2B8; font-family: Arial, Helvetica, sans-serif; font-size: large;"><img src="https://pbs.twimg.com/profile_images/993674618652254208/dYmlscab_400x400.jpg" alt="logo" style = "max-height: 3%; max-width: 3%; margin: 0.75%;">TV SERIES</div>
+    <div style="width: 50%; margin: 1.25% 3% 3% 3%;">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="container">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>ID</th>
+                                <th>Nombre</th>
+                                <th>Canal</th>
+                                <th>Temporadas</th>
+                            </tr>
+                        </thead>
+                        <tbody style="background-color:#F2F2F2;" id = "series"></tbody>
+                        <tr>
+                            <td colspan="4" id = "promedio" style="width: 100%; margin: 4%; white-space: nowrap;"></td>
+                        </tr>
+                    </table>
+                </div>
+                <div class="container">
+                    <button type="button" id="miBoton" class="btn btn-primary my-3">Mostrar Promedio</button>
+                    <p></p>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <!-- Content for the remaining 4 columns -->
+                <div class="card my-5" style="width: 18rem;">
+                    <img src="https://cdn-icons-png.flaticon.com/512/7500/7500338.png" class="card-img-top"
+                        alt="imagenPelicula" id="imagennn">
+                    <div class="card-body">
+                        <h5 class="card-title">Seleccione una serie</h5>
+                        <p class="card-text"></p>
+                        <a href="#" class="btn btn-primary stretched-link">Link a Serie</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script type="module" src="scripts/Serie.js"></script>
+    <script type="module" src="scripts/data.js"></script>
+    <script type="module" src="scripts/main.js"></script>
+
+</body>
+
+</html>
